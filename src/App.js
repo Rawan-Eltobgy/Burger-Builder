@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div>
         <Layout>
-          <BurgerBuilder />
+          <BurgerBuilder ingredients = {this.state.ingredients} />
         </Layout>
       </div>
     );
